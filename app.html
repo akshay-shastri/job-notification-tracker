@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Notification Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design-system.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- NAVIGATION -->
+    <nav class="nav">
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__list" id="navList">
+        <li><a href="#/dashboard" class="nav__link" data-route="/dashboard">Dashboard</a></li>
+        <li><a href="#/saved" class="nav__link" data-route="/saved">Saved</a></li>
+        <li><a href="#/digest" class="nav__link" data-route="/digest">Digest</a></li>
+        <li><a href="#/settings" class="nav__link" data-route="/settings">Settings</a></li>
+        <li><a href="#/jt/proof" class="nav__link" data-route="/jt/proof">Proof</a></li>
+        <li><a href="#/jt/07-test" class="nav__link" data-route="/jt/07-test">Test</a></li>
+        <li><a href="#/jt/08-ship" class="nav__link" data-route="/jt/08-ship">Ship</a></li>
+      </ul>
+    </nav>
+
+    <!-- ROUTE CONTENT -->
+    <main class="route-content" id="routeContent"></main>
+
+  </div>
+
+  <script src="jobs-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
