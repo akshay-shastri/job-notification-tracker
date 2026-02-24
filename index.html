@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KodNest Premium Build System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design-system.css">
+</head>
+<body>
+  <div class="page-container">
+    
+    <!-- TOP BAR -->
+    <header class="top-bar">
+      <div class="top-bar__project">KodNest Premium Build System</div>
+      <div class="top-bar__progress">Step 1 / 5</div>
+      <div class="top-bar__status status--not-started">Not Started</div>
+    </header>
+
+    <!-- CONTEXT HEADER -->
+    <section class="context-header">
+      <h1 class="context-header__title">Design System Reference</h1>
+      <p class="context-header__subtitle">A calm, intentional design system for building serious B2C products.</p>
+    </section>
+
+    <!-- MAIN WORKSPACE -->
+    <main class="workspace">
+      
+      <!-- PRIMARY WORKSPACE (70%) -->
+      <div class="workspace__primary">
+        
+        <div class="card">
+          <h3 class="card__title">Color System</h3>
+          <div class="card__content">
+            <p class="mb-sm">Four colors define the entire system. No gradients, no noise.</p>
+            <div style="display: flex; gap: 16px; margin-top: 24px;">
+              <div style="flex: 1;">
+                <div style="height: 80px; background: #F7F6F3; border: 1px solid #D4D2CC; border-radius: 4px; margin-bottom: 8px;"></div>
+                <div style="font-size: 13px; font-weight: 500;">Background</div>
+                <div style="font-size: 12px; opacity: 0.6;">#F7F6F3</div>
+              </div>
+              <div style="flex: 1;">
+                <div style="height: 80px; background: #111111; border-radius: 4px; margin-bottom: 8px;"></div>
+                <div style="font-size: 13px; font-weight: 500;">Primary Text</div>
+                <div style="font-size: 12px; opacity: 0.6;">#111111</div>
+              </div>
+              <div style="flex: 1;">
+                <div style="height: 80px; background: #8B0000; border-radius: 4px; margin-bottom: 8px;"></div>
+                <div style="font-size: 13px; font-weight: 500;">Accent</div>
+                <div style="font-size: 12px; opacity: 0.6;">#8B0000</div>
+              </div>
+              <div style="flex: 1;">
+                <div style="height: 80px; background: #4A6741; border-radius: 4px; margin-bottom: 8px;"></div>
+                <div style="font-size: 13px; font-weight: 500;">Success</div>
+                <div style="font-size: 12px; opacity: 0.6;">#4A6741</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Typography</h3>
+          <div class="card__content">
+            <h1 style="margin-bottom: 8px;">Heading One</h1>
+            <p class="text-muted mb-md" style="font-size: 14px;">Crimson Pro, 48px, serif</p>
+            
+            <h2 style="margin-bottom: 8px;">Heading Two</h2>
+            <p class="text-muted mb-md" style="font-size: 14px;">Crimson Pro, 32px, serif</p>
+            
+            <h3 style="margin-bottom: 8px;">Heading Three</h3>
+            <p class="text-muted mb-md" style="font-size: 14px;">Crimson Pro, 24px, serif</p>
+            
+            <p>Body text uses Inter at 16–17px with generous line-height of 1.7. Maximum width is constrained to 720px for optimal readability. No decorative fonts.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Spacing System</h3>
+          <div class="card__content">
+            <p class="mb-md">Consistent scale: 8px, 16px, 24px, 40px, 64px. Never use random values.</p>
+            <div style="display: flex; gap: 16px; align-items: flex-end;">
+              <div style="width: 8px; height: 8px; background: #8B0000;"></div>
+              <div style="width: 16px; height: 16px; background: #8B0000;"></div>
+              <div style="width: 24px; height: 24px; background: #8B0000;"></div>
+              <div style="width: 40px; height: 40px; background: #8B0000;"></div>
+              <div style="width: 64px; height: 64px; background: #8B0000;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Buttons</h3>
+          <div class="card__content">
+            <div class="btn-group mb-md">
+              <button class="btn btn--primary">Primary Action</button>
+              <button class="btn btn--secondary">Secondary Action</button>
+              <button class="btn btn--success">Success Action</button>
+            </div>
+            <p class="text-muted" style="font-size: 14px;">Consistent hover states, 150ms transitions, 4px border-radius.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Form Elements</h3>
+          <div class="card__content">
+            <input type="text" class="input mb-sm" placeholder="Input field">
+            <textarea class="textarea" placeholder="Textarea field"></textarea>
+          </div>
+        </div>
+
+        <div class="error-message">
+          <div class="error-message__title">Error State Example</div>
+          <div class="error-message__description">Explain what went wrong clearly and calmly.</div>
+          <div class="error-message__action">Next step: Check your configuration and try again.</div>
+        </div>
+
+        <div class="empty-state">
+          <div class="empty-state__title">Nothing here yet</div>
+          <div class="empty-state__description">Start by creating your first project.</div>
+          <button class="btn btn--primary">Create Project</button>
+        </div>
+
+      </div>
+
+      <!-- SECONDARY PANEL (30%) -->
+      <aside class="workspace__secondary">
+        <div class="panel">
+          
+          <div class="panel__section">
+            <div class="panel__heading">Step Explanation</div>
+            <p class="panel__text">This is the design system reference. Review all components before building.</p>
+          </div>
+
+          <div class="panel__section">
+            <div class="panel__heading">Prompt</div>
+            <div class="prompt-box">
+              <div class="prompt-box__content">Create a page using the KodNest Premium Build System design system.</div>
+            </div>
+            <button class="btn btn--secondary" style="width: 100%; margin-bottom: 8px;">Copy Prompt</button>
+            <button class="btn btn--primary" style="width: 100%;">Build in Lovable</button>
+          </div>
+
+          <div class="panel__section">
+            <div class="btn-group" style="flex-direction: column; width: 100%;">
+              <button class="btn btn--success" style="width: 100%;">It Worked</button>
+              <button class="btn btn--secondary" style="width: 100%;">Report Error</button>
+              <button class="btn btn--secondary" style="width: 100%;">Add Screenshot</button>
+            </div>
+          </div>
+
+        </div>
+      </aside>
+
+    </main>
+
+    <!-- PROOF FOOTER -->
+    <footer class="proof-footer">
+      <ul class="proof-footer__checklist">
+        <li class="proof-footer__item">
+          <span class="proof-footer__checkbox">□</span>
+          <span>UI Built</span>
+        </li>
+        <li class="proof-footer__item">
+          <span class="proof-footer__checkbox">□</span>
+          <span>Logic Working</span>
+        </li>
+        <li class="proof-footer__item is-complete">
+          <span class="proof-footer__checkbox">✓</span>
+          <span>Test Passed</span>
+        </li>
+        <li class="proof-footer__item">
+          <span class="proof-footer__checkbox">□</span>
+          <span>Deployed</span>
+        </li>
+      </ul>
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+job notification tracker
+
+step1: http://127.0.0.1:5500/index.html
+
+step2:http://127.0.0.1:5500/app.html
+
+step3:http://127.0.0.1:5500/app.html
+
+step4:http://127.0.0.1:5500/app.html#/dashboard
+
+syep5:http://127.0.0.1:5500/app.html#/setting
+
+step6:http://127.0.0.1:5500/app.html#/digest
+
+step7:http://127.0.0.1:5500/app.html#/dashboard
+
+step8:http://127.0.0.1:5500/app.html#/jt/07-test
+
+step9:http://127.0.0.1:5500/app.html#/jt/proof
+
+
+
+
+placement readiness
+
+step1: http://127.0.0.1:5500/design-system/demo.html
+
+step2:http://localhost:5173/
+
+step3:http://localhost:5173/
+
+step4: http://localhost:5173/dashboard/results
+
+step5:http://localhost:5173/dashboard/history
+
+step6:http://localhost:5173/dashboard/results
+
+step7:http://localhost:5173/dashboard/history
+
+step8:http://localhost:5173/dashboard/test
+
+step9:http://localhost:5173/dashboard/ship
+
+
+
+AI Resume Builder
+
+
+step1:http://localhost:3000/rb/01-problem
+
+step2:http://localhost:3000/builder
+
+step3:http://localhost:3000/builder
+
+step4:http://localhost:3000/builder
+
+step5:http://localhost:3000/preview
+
+step6:http://localhost:3000/preview
+
+step7:http://localhost:3000/preview
+
+step8:http://localhost:3000/preview
+
+step9:http://localhost:3000/proof
