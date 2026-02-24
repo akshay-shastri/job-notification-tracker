@@ -4,8 +4,10 @@
 A precision-matched job discovery system for Indian tech professionals. Stop missing the right jobs.
 
 ## 🔗 Live Demo
+## 🔗 Live Demo
 
-**Deployed App:** [https://akshay-shastri.github.io/job-notification-tracker/app.html](https://akshay-shastri.github.io/job-notification-tracker/app.html)
+🚀 **Live App:**  
+[View the Job Notification Tracker](https://akshay-shastri.github.io/job-notification-tracker/app.html)
 
 ## 📋 Overview
 
